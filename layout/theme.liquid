@@ -8,11 +8,11 @@
 </head>
 <body>
     <header>
-        <h1>This is Heading Content.</h1>
+        {% sections "header-group" %}
     </header>
     <main>{{ content_for_layout }}</main>
     <footer>
-        <h1>This is Footer Content</h1>
+        {% sections "footer-group" %}
     </footer>
 </body>
 </html>

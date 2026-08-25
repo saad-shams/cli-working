@@ -8,19 +8,17 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {
-    "main": {
-      "type": "header",
-      "disabled": true,
-      "settings": {}
+    "name":"Header Group",
+    "type":"header",
+    "sections":{
+"main":{
+    "type":"header",
+    "settings":{}
+},
+"annnouncment-bar":{
+    "type":"announcment-bar",
+    "settings":{}
+}
     },
-    "hero-banner": {
-      "type": "hero-banner",
-      "settings": {}
-    }
-  },
-  "order": [
-    "main",
-    "hero-banner"
-  ]
+    "order":["annnouncment-bar", "main"]
 }
